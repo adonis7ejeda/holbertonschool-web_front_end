@@ -1,3 +1,8 @@
+/* Effortless transitions when scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
 /* For the body, set the foreground color value to #161616 */
 body {
   color: #161616;

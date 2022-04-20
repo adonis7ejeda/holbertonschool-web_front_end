@@ -1,14 +1,47 @@
-/* Targeting the root element, create 2 custom font-family properties font-family-base and font-family-title */
-:root {
-    --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
+/* Effortless transitions when scrolling */
+html {
+    scroll-behavior: smooth;
 }
 
+/* Revisit the body declarations and reset their color to text-color */
 body {
+    color: var(--text-color);
     font-family: var(--font-family-base);
+}
+
+/* Revisit the anchor declarations and reset their color to text-color */
+a {
+    color: var(--text-color);
+}
+
+/* All elements with the class visually-hidden should have their display to none */
+.visually-hidden {
+    display: none;
+}
+
+/* Revisit the card-category declarations and reset their color to color-primary */
+.card-category {
+    color: var(--color-primary);
+}
+
+/* Revisit the section-tagline declarations and reset their color to color-primary */
+.section-tagline {
+    color: var(--color-primary);
 }
 
 /* Create a new declaration targeting all 6 levels of section headings, set its font-family to font-family-title */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
+}
+
+/* Target the root element and define the following custom properties */
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-gray: #f3f3f3;
+    --color-dark-gray: #353535;
+    --text-color: var(--color-black);
+    --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
