@@ -8,13 +8,13 @@
     --color-text: var(--color-black);
 }
 
-/* Revisit the card-category declarations and reset their color to color-primary */
-.card-category {
+/* Revisit the section-tagline declarations and reset their color to color-primary */
+.section-tagline {
     color: var(--color-primary);
 }
 
-/* Revisit the section-tagline declarations and reset their color to color-primary */
-.section-tagline {
+/* Revisit the card-category declarations and reset their color to color-primary */
+.card-category {
     color: var(--color-primary);
 }
 
