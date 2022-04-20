@@ -8,14 +8,9 @@
     --text-color: var(--color-black);
 }
 
-/* Revisit the section-tagline declarations and reset their color to color-primary */
-.section-tagline {
-    color: var(--color-primary);
-}
-
-/* Revisit the card-category declarations and reset their color to color-primary */
-.card-category {
-    color: var(--color-primary);
+/* Effortless transitions when scrolling */
+html {
+    scroll-behavior: smooth;
 }
 
 /* Revisit the body declarations and reset their color to text-color */
@@ -31,4 +26,14 @@ a {
 /* All elements with the class visually-hidden should have their display to none */
 .visually-hidden {
     display: none;
+}
+
+/* Revisit the section-tagline declarations and reset their color to color-primary */
+.section-tagline {
+    color: var(--color-primary);
+}
+
+/* Revisit the card-category declarations and reset their color to color-primary */
+.card-category {
+    color: var(--color-primary);
 }
