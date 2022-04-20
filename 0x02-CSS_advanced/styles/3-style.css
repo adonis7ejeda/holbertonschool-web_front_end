@@ -9,8 +9,7 @@
 }
 
 /* Revisit the section-tagline declarations and reset their color to color-primary */
-.section-tagline
-{
+.section-tagline {
     color: var(--color-primary);
 }
 
@@ -27,4 +26,9 @@ body {
 /* Revisit the anchor declarations and reset their color to text-color */
 a {
     color: var(--text-color);
+}
+
+/* All elements with the class visually-hidden should have their display to none */
+.visually-hidden {
+    display: none;
 }
