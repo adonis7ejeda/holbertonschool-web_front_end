@@ -54,7 +54,7 @@ a:active {
 
 .card-services a {
     display: block;
-    padding: calc(var(--section-padding) * 2);
+    padding: 2rem;
     background-color: var(--color-light-grey);
 }
 
